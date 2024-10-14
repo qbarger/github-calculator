@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build Docker_image:
+  build_Docker_image:
     name: Push Docker image to Docker hub
     runs-on: ubuntu-latest
 

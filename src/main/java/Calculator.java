@@ -1,9 +1,13 @@
+import java.security.SecureRandom;
+import java.util.Base64;
 
 class Calculator {
 
+    private static final SecureRandom random = new SecureRandom();
     Calculator(){
         //comment for the tutorial
         //another comment for the workflow
+        //third comment
     }
 
     int add(int a , int b){
@@ -64,7 +68,19 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int number){
-        return null;
+        if (number == 0) {
+            return "0";
+        }
+
+        StringBuilder binary = new StringBuilder();
+
+        while (number > 0) {
+            int remainder = number % 2;
+            binary.insert(0, remainder);
+            number = number / 2;
+        }
+
+        return binary.toString();
     }
 
     /*
@@ -76,7 +92,14 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
-        return null;
+        byte[] randomBytes = new byte[16];
+        random.nextBytes(randomBytes);
+
+        // Encode the random bytes to a Base64 string to make it printable
+        String randomString = Base64.getUrlEncoder().withoutPadding().encodeToString(randomBytes);
+
+        // Combine the input string with the random string
+        return n + randomString;
     }
 
 

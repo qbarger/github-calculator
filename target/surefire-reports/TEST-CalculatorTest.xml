@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.052" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/quentonbarger/BYU/CS 204/github-calculator/target/test-classes:/Users/quentonbarger/BYU/CS 204/github-calculator/target/classes:/Users/quentonbarger/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/quentonbarger/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/quentonbarger/BYU/CS 204/github-calculator/target/surefire/surefirebooter-20241013230724278_3.jar /Users/quentonbarger/BYU/CS 204/github-calculator/target/surefire 2024-10-13T23-07-24_241-jvmRun1 surefire-20241013230724278_1tmp surefire_0-20241013230724278_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/quentonbarger/BYU/CS 204/github-calculator/target/test-classes:/Users/quentonbarger/BYU/CS 204/github-calculator/target/classes:/Users/quentonbarger/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/quentonbarger/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/quentonbarger"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/quentonbarger/BYU/CS 204/github-calculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/quentonbarger/BYU/CS 204/github-calculator/target/surefire/surefirebooter-20241013230724278_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23"/>
+    <property name="user.name" value="quentonbarger"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/quentonbarger/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/jn/884z7_g148s7w2czpvk823hw0000gn/T/"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="/Users/quentonbarger/BYU/CS 204/github-calculator"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/quentonbarger/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="divideTest" classname="CalculatorTest" time="0.027"/>
+  <testcase name="addTest" classname="CalculatorTest" time="0.0"/>
+  <testcase name="divideByZeroFailure" classname="CalculatorTest" time="0.0"/>
+  <testcase name="intToBinaryNumberTest" classname="CalculatorTest" time="0.0"/>
+  <testcase name="multiplyTest" classname="CalculatorTest" time="0.0"/>
+  <testcase name="subtractTest" classname="CalculatorTest" time="0.0"/>
+  <testcase name="fibonacciTest" classname="CalculatorTest" time="0.0"/>
+  <testcase name="createUniqueIDTest" classname="CalculatorTest" time="0.0"/>
+</testsuite>

@@ -26,4 +26,4 @@ jobs:
       - name: Short tests
         run: mvn -ntp test -Dtest=CalculatorTest
       - name: Long tests
-        run: mvn -ntp test -Dtest=CalculatorTest#Thorough
+        run: mvn -ntp test -Dtest=CalculatorTestThorough
